@@ -1,0 +1,452 @@
+{
+  "materias": [
+    {
+      "id": 1,
+      "anio": "1ro",
+      "nombre": "Presencial",
+      "regimen": "Materia",
+      "formato": "Asignatura",
+      "prerrequisitos": {
+        "requiresCursada": [],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 2,
+      "anio": "1ro",
+      "nombre": "Problemáticas socio-institucionales",
+      "regimen": "Presencial",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 3,
+      "anio": "1ro",
+      "nombre": "Didáctica general",
+      "regimen": "Presencial",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 4,
+      "anio": "1ro",
+      "nombre": "Prácticas discursivas de la comunicación oral I",
+      "regimen": "Presencial/Semipresencial",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 5,
+      "anio": "1ro",
+      "nombre": "Prácticas discursivas de la comunicación escrita I",
+      "regimen": "Presencial",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 6,
+      "anio": "1ro",
+      "nombre": "Prácticas discursivas del ámbito académico en español",
+      "regimen": "Presencial",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 7,
+      "anio": "1ro",
+      "nombre": "Introducción al Inglés con fines académicos",
+      "regimen": "Presencial",
+      "formato": "Taller",
+      "prerrequisitos": {
+        "requiresCursada": [],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 8,
+      "anio": "1ro",
+      "nombre": "Estudios interculturales en lengua inglesa I",
+      "regimen": "Presencial/Semipresencial/Virtual",
+      "formato": "Presencial",
+      "prerrequisitos": {
+        "requiresCursada": [],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 9,
+      "anio": "1ro",
+      "nombre": "CFPP 1: el trabajo docente: complejidades y entramados",
+      "regimen": "Presencial",
+      "formato": "Taller",
+      "prerrequisitos": {
+        "requiresCursada": [],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 10,
+      "anio": "2do",
+      "nombre": "Historia y política de la educación argentina",
+      "regimen": "Presencial/Semipresencial/Virtual",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 11,
+      "anio": "2do",
+      "nombre": "Enseñar con tecnologías",
+      "regimen": "Presencial/Semipresencial/Virtual",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [],
+        "requiresAcreditar": [
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "anio": "2do",
+      "nombre": "Perspectivas acerca de los sujetos de la educación",
+      "regimen": "Presencial",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 13,
+      "anio": "2do",
+      "nombre": "Prácticas discursivas de la comunicación oral II",
+      "regimen": "Presencial/Semipresencial",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [
+          4
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 14,
+      "anio": "2do",
+      "nombre": "Prácticas discursivas de la comunicación escrita II",
+      "regimen": "Presencial",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [
+          5
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 15,
+      "anio": "2do",
+      "nombre": "Fundamentos de la enseñanza y aprendizaje del Ingles I",
+      "regimen": "Presencial",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [
+          3
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 16,
+      "anio": "2do",
+      "nombre": "Literatura en lengua inglesa y niñez",
+      "regimen": "Presencial/Semipresencial/Virtual",
+      "formato": "Taller",
+      "prerrequisitos": {
+        "requiresCursada": [
+          8
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 17,
+      "anio": "2do",
+      "nombre": "Estudios interculturales en lengua inglesa II",
+      "regimen": "Presencial/Semipresencial/Virtual",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [
+          8
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 18,
+      "anio": "2do",
+      "nombre": "CFPP 2: la construcción del trabajo docente en la EP y ES",
+      "regimen": "Presencial",
+      "formato": "Taller",
+      "prerrequisitos": {
+        "requiresCursada": [
+          9
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 19,
+      "anio": "3ro",
+      "nombre": "Educación para la diversidad",
+      "regimen": "Presencial/Semipresencial/Virtual",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [
+          1,
+          3,
+          12
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 20,
+      "anio": "3ro",
+      "nombre": "La evaluación de los aprendizajes",
+      "regimen": "Presencial/Semipresencial/Virtual",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [],
+        "requiresAcreditar": [
+          1,
+          3,
+          12
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "anio": "3ro",
+      "nombre": "Filosofía y educación",
+      "regimen": "Presencial/Semipresencial/Virtual",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [
+          1,
+          3
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 22,
+      "anio": "3ro",
+      "nombre": "Optativas | segunda lengua extranjera/oratoria y retorica docente",
+      "regimen": "Presencial/Semipresencial/Virtual",
+      "formato": "Taller",
+      "prerrequisitos": {
+        "requiresCursada": [],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 23,
+      "anio": "3ro",
+      "nombre": "Prácticas discursivas de la comunicación oral III",
+      "regimen": "Presencial",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [
+          13
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 24,
+      "anio": "3ro",
+      "nombre": "Prácticas discursivas de la comuniación escrita III",
+      "regimen": "Presencial",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [
+          14
+           ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 25,
+      "anio": "3ro",
+      "nombre": "Fundamentos de la enseñanza y aprendizaje del Ingés II",
+      "regimen": "Presencial/Semipresencial/Virtual",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [
+          15,
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 26,
+      "anio": "3ro",
+      "nombre": "Literatura en lengua inglesa y juventud",
+      "regimen": "Presencial/Semipresencial/Virtual",
+      "formato": "Taller",
+      "prerrequisitos": {
+        "requiresCursada": [
+          16
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 27,
+      "anio": "3ro",
+      "nombre": "Estudios interculturales en lengua inglesa III",
+      "regimen": "Presencial/Semipresencial/Virtual",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [
+          17
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 28,
+      "anio": "3ro",
+      "nombre": "CFPP 3: la construcción de latarea docente específica en la enseñanza en el nivel primario",
+      "regimen": "Presencial",
+      "formato": "Taller",
+      "prerrequisitos": {
+        "requiresCursada": [
+          18
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 29,
+      "anio": "4to",
+      "nombre": "Análisis e intervención en situaciones de convivencia escolar",
+      "regimen": "Presencial/Semipresencial/Virtual",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [
+          19
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 30,
+      "anio": "4to",
+      "nombre": "Tutorías y orientación escolar",
+      "regimen": "Presencial/Semipresencial/Virtual",
+      "formato": "Taller",
+      "prerrequisitos": {
+        "requiresCursada": [],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 31,
+      "anio": "4to",
+      "nombre": "EDI: Espacio de Definición Institucional",
+      "regimen": "Presencial/Semipresencial/Virtual",
+      "formato": "Materia/Taller",
+      "prerrequisitos": {
+        "requiresCursada": [
+          1,
+          3,
+          19
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 32,
+      "anio": "4to",
+      "nombre": "Prácticas discursivas de la comunicación oral IV",
+      "regimen": "Presencial/Semipresencial/Virtual",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [
+          23
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 33,
+      "anio": "4to",
+      "nombre": "Prácticas discursivas de la comunicación escrita IV",
+      "regimen": "Presencial",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [
+          24
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 34,
+      "anio": "4to",
+      "nombre": "Fundamentos de la enseñanza y el aprendizaje del Inglés III",
+      "regimen": "Presencial/Semipresencial/Virtual",
+      "formato": "Materia",
+      "prerrequisitos": {
+        "requiresCursada": [
+          25
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 35,
+      "anio": "4to",
+      "nombre": "Estudios interculturales en lengua inglesa IV",
+      "regimen": "Presencial/Semipresencial/Virtual",
+      "formato": "Seminario",
+      "prerrequisitos": {
+        "requiresCursada": [
+          27
+        ],
+        "requiresAcreditar": []
+      }
+    },
+    {
+      "id": 36,
+      "anio": "4to",
+      "nombre": "CFPP: la construcción de la tarea específica docente en la enseñanza en el nivel secundario",
+      "regimen": "Presencial",
+      "formato": "Taller",
+      "prerrequisitos": {
+        "requiresCursada": [
+          28
+        ],
+        "requiresAcreditar": []
+      }
+    }
